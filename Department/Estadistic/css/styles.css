@@ -1,0 +1,235 @@
+.fullcontent{/* es toda la pagina*/
+	background-color:#F5F5F5;
+}
+.cuerpo{/* ah este se le da mas estatura por si se sale de su lugar el body*/
+	background-color:#FFF;
+	margin:auto;
+	width:80%;
+	height:1200px;
+}
+.menu{
+	margin:auto;
+	height:45px;
+	width:700px;
+	padding: 15px 50px 5px 50px;
+	font-size: 16px;
+}
+.content{
+	position: absolute;
+	height:900px;
+	width:70%;
+	margin-top:50px;
+	margin-left: 5%;
+}
+.banner{
+	border-radius: 5px;
+	height:420px;
+	width:940px;
+	margin:auto;
+	text-align:center;
+}
+.notific{
+	height:200px;
+	width:96%;
+	margin-top:20px;
+	margin-left: 2%;
+}
+.citas{
+	height:400px;
+	width:45%;
+	margin-top:10px;
+	float:right;
+	margin-right: 2%;
+}
+.adds{
+	height:400px;
+	width:45%;
+	margin-top:10px;
+	float:left;
+	margin-left: 2%;
+}
+.consultorio{
+	text-align: center;
+	width:99%;
+	height:280px;
+	background-color:#f3f3f3;
+	border-radius:5px;	
+}
+.image{
+	background-image:url(../images/LogoMedicina.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:110px;
+	text-align: center;
+	width:120px;
+	height:210px;
+}
+.image2{
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:240px;
+	float:right;
+	margin-top:-210px;
+	text-align: center;
+	width:120px;
+	height:210px;
+}
+.info{
+	padding:5px;
+	margin-left:18%;
+	margin-top:-150px;
+	width:590px;
+	height:150px;
+}
+.infPaci{
+	margin-top:20px;
+	margin-left:25px;
+	width:500px;
+	height:100px;
+}
+.consultas{
+	margin:auto;
+	margin-top:20px;
+	width:98%;
+	height:50%;
+}
+.panel-back {
+    background-color:#F8F8F8;
+
+}
+   .noti-box {
+min-height: 100px;
+padding: 20px;
+}
+
+    .noti-box .icon-box {
+display: block;
+float: left;
+margin: 0 15px 10px 0;
+width: 70px;
+height: 70px;
+line-height: 75px;
+vertical-align: middle;
+text-align: center;
+font-size: 40px;
+}
+.text-box p{
+    margin: 0 0 3px;
+}
+.main-text {
+    font-size: 25px;
+    font-weight:600;
+}
+.set-icon {
+    -webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+
+}
+    .bg-color-green {
+background-color: #00CE6F;
+color: #fff;
+}
+ .bg-color-blue {
+background-color: #A95DF0;
+color: #fff;
+}
+  .bg-color-red {
+background-color: #DB0630;
+color: #fff;
+}
+  .bg-color-brown {
+background-color: #B94A00;
+color: #fff;
+}
+
+
+ .icon-box-right {
+display: block;
+float: right;
+margin: 0 15px 10px 0;
+width: 70px;
+height: 70px;
+line-height: 75px;
+vertical-align: middle;
+text-align: center;
+font-size: 40px;
+}
+
+ .main-temp-back {
+background: #8702A8;
+color: #FFFFFF;
+font-size: 16px;
+font-weight: 300;
+text-align: center;
+}
+ .main-temp-back .text-temp {
+font-size: 40px;
+}
+.back-dash {
+    padding:20px;
+    font-size:20px;
+    font-weight:500;
+      -webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+background-color:#2EA7EB;
+color:#fff;
+}
+    .back-dash p {
+        padding-top:16px;
+        font-size:13px;
+        color:#fff;
+        line-height:25px;
+        text-align:justify;
+    }
+    .back-footer-green {
+    background-color: #009B50;
+    border-top: 0px solid #fff;
+}
+     .back-footer-red {
+    background-color: #AF0000;
+    border-top: 0px solid #fff;
+}
+     .color-bottom-txt {
+   color: #000;
+font-size: 16px;
+line-height: 30px;
+}
+#backScreen{
+	display:none;
+	width:100%; /*es todo lo ancho del contenedor*/
+	height:150%; /*es todo lo alto del contenedor*/
+	left:0px;
+	top:0px;
+	background-color:#333;
+	opacity:0.5;
+	position:absolute;
+	z-index:1000;
+}
+
+#window{
+	background-color:#FFF;
+	display:none; /*visualizar o no!!*/
+	z-index:1001;
+	opacity:1;
+	position:absolute;
+	top:55%;
+	left:50%;
+	border-radius:10px;
+	box-shadow:#666 5px 5px 5px;
+}
+.detalles{
+	text-align:justify;
+	overflow-y:auto;
+	padding:7px;
+	width:100%;
+	height:130px;
+}
+.detalles1{
+	text-align:justify;
+	padding:7px;
+	width:100%;
+	height:50px;
+}
